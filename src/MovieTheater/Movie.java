@@ -63,7 +63,7 @@ public class Movie {
             System.out.println("\n1. Reserve a seat");
             System.out.println("2. Cancel a reservation");
             System.out.println("3. Retrieve seating chart");
-            System.out.println("4. Exit");
+
 
             System.out.print("Choose an option: ");
             int option = scanner.nextInt();
@@ -83,11 +83,8 @@ public class Movie {
                     seat = scanner.nextInt();
                     movie.cancelSeat(row, seat);
                     break;
-                case 3:  // View seating chart
+                case 3:  // Retrieve seating chart
                     movie.printSeatingChart();
-                    break;
-                case 4:  // New Reservation
-                    System.out.println("Make a new Reservation");
                     return;
                 default:
                     System.out.println("Invalid option. Please try again.");
