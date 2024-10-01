@@ -11,7 +11,7 @@ public class MainApp {
         sda.insertInLinkedList(6, 5);
 
         sda.deleteFromLinkedList(0);
-        sda.deleteFromLinkedList(LinkedList.size - 1);
+        //sda.deleteFromLinkedList(LinkedList.size - 1);
         sda.deleteFromLinkedList(1);
 
         sda.traverseLinkedList();
